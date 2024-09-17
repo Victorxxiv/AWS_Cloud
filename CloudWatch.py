@@ -1,3 +1,4 @@
+# Setting up CloudWatch Alarm
 aws cloudwatch put-metric-alarm \
     --alarm-name "HighCPUUtilization" \
     --metric-name "CPUUtilization" \
