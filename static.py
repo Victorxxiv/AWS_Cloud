@@ -1,3 +1,4 @@
+# Example: Provisioning an EC2 instance
 aws ec2 run_instances \
     --image-id ami-0c55b159cbfafe1f0 \
     --count 1 \
